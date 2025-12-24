@@ -1,0 +1,13 @@
+.logo{
+   font-family: 'fire code', monospace;
+}
+@media (min-width: 350px) and (max-width: 639px) {
+  .flex-custom {
+    flex-direction: column;
+  }
+}
+@media (min-width: 350px) and (max-width: 639px) {
+  .flex-gap1 {
+    gap: 20px;
+  }
+}

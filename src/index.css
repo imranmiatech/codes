@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #C778DD;
+  --color-secondary: #61DAFB;
+  --color-accent: #C778DD;
+  --color-text: #FFFFFF;
+
+  --font-sans: Roboto, sans-serif;
+  --font-mono: "Fira Code", monospace;
+
+  /* custom width */
+  --width-350: 350px;
+}
