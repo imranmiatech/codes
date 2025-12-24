@@ -30,9 +30,13 @@ const Contacts = () => {
               <p>
                 Feel free to reach out for freelance projects, collaborations, or any questions. I’m always open to discussing new ideas and opportunities.
               </p>
-              <button className="h-9 w-38 flex items-center justify-center text-white border border-gray-300 hover:bg-[#C778DD] font-mono">
-                contact!
+              <a href="https://www.linkedin.com/in/md-imran-mia-7089ab286/" target="_blank" rel="noopener noreferrer">
+               <button className="h-9 w-38 flex items-center justify-center cursor-pointer 
+                                 text-white border border-gray-300 
+                                 hover:bg-[#C778DD] font-mono">
+                Contact me!!
               </button>
+              </a>
             </div>
 
             {/* RIGHT */}

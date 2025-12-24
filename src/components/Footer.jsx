@@ -33,7 +33,7 @@ const Footer = () => {
               Media
             </div>
 
-            <div className="flex gap-3">
+            <div className="flex gap-x-4">
               <a href="https://github.com/imranmiatech"> <FaGithub className="text-white opacity-45 hover:opacity-100 text-2xl" /></a>
               <a href="https://www.linkedin.com/in/md-imran-mia-7089ab286/"><FaLinkedin className="text-2xl text-white opacity-45 hover:opacity-100" /></a>
               <a href="https://www.facebook.com/md.imran.428063"><FaFacebookF className="text-2xl text-white opacity-45 hover:opacity-100" /></a>

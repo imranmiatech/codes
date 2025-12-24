@@ -1,71 +1,4 @@
-// import React from "react";
-// import "../components/home.css";
-// import Great from "../components/Great";
-// import Project from "../components/Project";
-// import About from "../components/About";
-// import Contact from "../components/Contact";
 
-
-// const Home = () => {
- 
-//   return (
-//     <div className="w-full flex flex-col justify-center items-center">
-//       <div className="w-full max-w-5xl flex flex-col items-center">
-        
-//         <div className="px-4 flex flex-col lg:flex-row 
-//                         justify-center items-center 
-//                         gap-16 mt-16 pb-28">
-          
-//           {/* LEFT CONTENT */}
-//           <div className="flex flex-col gap-8 text-center lg:text-left">
-//             <div className="text-[32px] sm:text-[28px] md:text-[32px] lg:text-[36px] 
-//                             max-w-xl font-semibold text-white font-mono">
-//               <span>Imran is a </span>
-//               <span className="text-[#C778DD]">web designer</span>{" "}
-//               <span>and </span>
-//               <span className="text-[#C778DD]">front-end developer</span>
-//             </div>
-
-//             <div className="flex flex-col gap-8 mt-4 items-center lg:items-start">
-//               <div className="text-base font-medium text-white opacity-50 max-w-md font-mono">
-//                 He crafts responsive websites where technologies meet creativity
-//               </div>
-
-//               <button className="h-9 w-38 flex items-center justify-center 
-//                                  text-white border border-gray-300 
-//                                  hover:bg-[#C778DD] font-mono">
-//                 Contact me!!
-//               </button>
-//             </div>
-//           </div>
-
-//           {/* RIGHT CONTENT */}
-//           <div  className="flex flex-col items-center gap-6">
-//             <div className="max-w-117.5 h-80 bg-[url('/Image.png')] bg-cover bg-no-repeat">
-//               <img className="p-4 relative" src="/behind.png" alt="" />
-//             </div>
-
-//             <button className="h-9 w-full flex gap-2 items-center justify-center 
-//                                text-white border border-gray-300 
-//                                hover:bg-[#C778DD] font-mono">
-//               <div className="bg-accent h-3 w-3"></div>
-//               Download Resume
-//             </button>
-//           </div>
-
-//         </div>
-
-        
-//       </div>
-//       <Great />
-//       <Project />
-//       <About />
-//       <Contact/>
-//     </div>
-//   );
-// };
-
-// export default Home;
 import React from "react";
 import { motion } from "framer-motion";
 import "../components/home.css";
@@ -118,13 +51,15 @@ const Home = () => {
             <div className="max-w-117.5 h-80 bg-[url('/Image.png')] bg-cover bg-no-repeat">
               <img className="p-4 relative" src="/behind.png" alt="" />
             </div>
-
-            <button className="h-9 w-full flex gap-2 items-center justify-center 
+             <a href="https://www.linkedin.com/in/your-username" target="_blank" rel="noopener noreferrer" className="w-full" >
+                      <button className="h-9 w-full flex gap-2 items-center justify-center 
                                text-white border border-gray-300 
                                hover:bg-[#C778DD] font-mono">
-              <div className="bg-accent h-3 w-3"></div>
-              Download Resume
-            </button>
+                      <div className="bg-accent h-3 w-3"></div>
+                     Download Resume
+                     </button>
+               </a>
+            
           </div>
         </div>
       </motion.div>

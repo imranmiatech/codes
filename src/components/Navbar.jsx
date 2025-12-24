@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-
+import { FaLinkedin, FaFacebookF, FaGithub} from "react-icons/fa";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -77,9 +77,12 @@ const Navbar = () => {
       >
         {/* Close Button */}
         <div className="flex justify-between font-mono">
-          <h1 className="text-xl font-bold text-white hover:opacity-75 font-mono">
+          <Link to='/'>
+          <h1 onClick={closeMenu} className="text-xl font-bold text-white hover:opacity-75 font-mono">
             IMRAN.DEV
           </h1>
+          </Link>
+          
           <li onClick={closeMenu} className="cursor-pointer mb-4">
             <img src="/cross.png" alt="close" className="w-6 h-6" />
           </li>
@@ -117,11 +120,11 @@ const Navbar = () => {
              </a>
         
         <div className="h-full pt-10">
-<div className="flex justify-center gap-2 ">
-          <img className="w-12 h-12" src="/GitHub.png" alt="" />
-          <img className="w-12 h-12" src="/Dribble.png" alt="" />
-          <img className="w-12 h-12" src="/Figma.png" alt="" />
-        </div>
+          <div className="flex gap-x-4">
+                        <a href="https://github.com/imranmiatech"> <FaGithub className="text-white opacity-45 hover:opacity-100 text-2xl " /></a>
+                        <a href="https://www.linkedin.com/in/md-imran-mia-7089ab286/"><FaLinkedin className="text-2xl text-white opacity-45 hover:opacity-100" /></a>
+                        <a href="https://www.facebook.com/md.imran.428063"><FaFacebookF className="text-2xl text-white opacity-45 hover:opacity-100" /></a>
+                      </div>
         </div>
       </ul>
     </div>
