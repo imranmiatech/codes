@@ -6,7 +6,7 @@ import { MdEmail } from "react-icons/md";
 const Contacts = () => {
   return (
     <motion.div
-      className="w-full flex flex-col justify-center items-center relative"
+      className="w-full flex flex-col justify-center items-center relative h-fit md:h-[60vh] lg:h-[75vh]"
       initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.2 }}

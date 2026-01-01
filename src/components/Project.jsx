@@ -34,17 +34,27 @@ const Project = () => {
             transition={{ duration: 0.8 }}
           >
             <div className="h-50.5">
-              <img className="transition-all duration-300 ease-in-out hover:scale-110" src="/kri.png" alt="" />
+              <img className="transition-all duration-300 ease-in-out hover:scale-110" src="/Images/project01.png" alt="" />
             </div>
             <div className="text-gray-400 border border-gray-400 p-2 h-fit">
               <span>Tailwind</span> <span>react</span> <span>express</span> <span>mongodb</span>
             </div>
             <div className="p-4 gap-x-4">
-              <p className="text-2xl font-medium font-mono text-white">ChertNodes</p>
-              <p className="text-base font-normal font-mono text-gray-300 pb-4 pt-4">Minecraft servers hosting</p>
+              <p className="text-2xl font-medium font-mono text-white">Agriculture E-commerce</p>
+              <p className="text-base font-normal font-mono text-gray-300 pb-4 pt-4">Empowering Framers Digitally.</p>
               <div className="flex gap-4">
-                <div className="border border-accent px-4 py-2 hover:bg-accent w-full text-white text-center">Live</div>
-                <div className="border border-accent px-4 py-2 hover:bg-accent w-full text-white text-center">Github</div>
+               <a href="https://krisikunjo.shop" className='w-full' target="_blank"
+                      rel="noopener noreferrer">
+                      <div className='border border-accent px-4 py-2 w-full text-center text-white hover:bg-accent'>
+                        Live
+                      </div>
+                    </a>
+                    <a href="https://github.com/imranmiatech/krisikunjo" className='w-full' target="_blank"
+                      rel="noopener noreferrer">
+                      <div className='border border-accent px-4 py-2 w-full text-center text-white hover:bg-accent'>
+                        Github Link
+                      </div>
+                    </a>
               </div>
             </div>
           </motion.div>

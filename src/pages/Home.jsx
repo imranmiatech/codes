@@ -48,7 +48,7 @@ const Home = () => {
 
           {/* RIGHT CONTENT */}
           <div className="flex flex-col items-center gap-6">
-            <div className="max-w-117.5 h-80 bg-[url('/Image.png')] bg-cover bg-no-repeat">
+            <div className="max-w-117.5 h-80 bg-[url('/imrans.png')] bg-cover bg-no-repeat fit">
               <img className="p-4 relative" src="/behind.png" alt="" />
             </div>
              <a href="https://www.linkedin.com/in/your-username" target="_blank" rel="noopener noreferrer" className="w-full" >
